@@ -1,0 +1,12 @@
+:root{
+  --maxw: 900px;
+  --accent: #0070f3;
+}
+body{ font-family: Inter, Arial, sans-serif; margin:0; padding:0; background:#f7f7f8; color:#111 }
+.container{ max-width:var(--maxw); margin:40px auto; background:#fff; padding:24px; border-radius:8px; box-shadow:0 6px 18px rgba(20,20,20,0.06) }
+input, textarea { width:100%; padding:10px; margin-top:8px; border:1px solid #ddd; border-radius:6px; font-size:15px }
+button{ background:var(--accent); color:#fff; border:none; padding:10px 14px; border-radius:6px; cursor:pointer }
+a.brand{ color:var(--accent); text-decoration:none; font-weight:600 }
+.table{ width:100%; border-collapse:collapse; margin-top:12px }
+.table th, .table td{ text-align:left; padding:8px; border-bottom:1px solid #eee }
+.small { font-size:13px; color:#555 }
